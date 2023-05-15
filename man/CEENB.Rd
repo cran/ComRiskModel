@@ -78,9 +78,9 @@ Nadarajah, S. (2011). The exponentiated exponential distribution: a survey. AStA
 }
 
 \author{
-Muhammad Imran and H.M Tahir.
+Muhammad Imran and M.H Tahir.
 
-R implementation and documentation: Muhammad Imran \email{imranshakoor84@yahoo.com} and H.M Tahir \email{mht@iub.edu.pk}.
+R implementation and documentation: Muhammad Imran \email{imranshakoor84@yahoo.com} and M.H Tahir \email{mht@iub.edu.pk}.
 }
 
 
@@ -95,10 +95,10 @@ R implementation and documentation: Muhammad Imran \email{imranshakoor84@yahoo.c
 }
 
 \examples{
-x<-rCEENB(500,0.7,0.2,0.2,0.7)
+x<-data_guineapigs
 dCEENB(x,2,1,2,0.2)
 pCEENB(x,2,1,2,0.2)
 qCEENB(0.7,2,1,2,0.2)
-mCEENB(x,0.2,0.1,0.2,0.2, method="B")
+mCEENB(x,2.2,0.4,0.2,0.2, method="B")
 }
 

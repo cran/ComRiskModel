@@ -37,10 +37,10 @@ A vector of probablities.
 The number of random values to be generated under the CB12NB distribution.
 }
 \item{lambda}{
-The strictly positive parameter of the negative bionomial distribution \eqn{\lambda \in (0,1)}.
+The strictly positive parameter of the negative binomial distribution \eqn{\lambda \in (0,1)}.
 }
 \item{s}{
-The positive parameter of the negative bionomial distribution \eqn{s > 0}.
+The positive parameter of the negative binomial distribution \eqn{s > 0}.
 }
 \item{a}{
 The strictly positive scale parameter of the baseline Burr-12 distribution (\eqn{a > 0}).
@@ -84,9 +84,9 @@ Zimmer, W. J., Keats, J. B., & Wang, F. K. (1998). The Burr XII distribution in 
 }
 
 \author{
-Muhammad Imran and H.M Tahir.
+Muhammad Imran and M.H Tahir.
 
-R implementation and documentation: Muhammad Imran \email{imranshakoor84@yahoo.com} and H.M Tahir \email{mht@iub.edu.pk}.
+R implementation and documentation: Muhammad Imran \email{imranshakoor84@yahoo.com} and M.H Tahir \email{mht@iub.edu.pk}.
 }
 
 

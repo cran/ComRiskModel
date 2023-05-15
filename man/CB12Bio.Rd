@@ -6,8 +6,8 @@
 \alias{mCB12Bio}
 \title{Complementary Burr-12 binomial distribution}
 
-\description{Evaluates the PDF, CDF, QF, random numbers and MLEs based on the complementary Burr-12 bionomial (CB12Bio) distribution.
-The CDF of the complementary G bionomial distribution is as follows:
+\description{Evaluates the PDF, CDF, QF, random numbers and MLEs based on the complementary Burr-12 binomial (CB12Bio) distribution.
+The CDF of the complementary G binomial distribution is as follows:
 \deqn{
 F(x)=\frac{\left[1-\lambda(1-G(x))\right]^{m}-(1-\lambda)^{m}}{1-(1-\lambda)^{m}};\qquad\lambda\in\left(0,1\right),\,m\geq1,
 }
@@ -37,10 +37,10 @@ A vector of probablities.
 The number of random values to be generated under the CB12Bio distribution.
 }
 \item{lambda}{
-The strictly positive parameter of the bionomial distribution \eqn{\lambda \in (0,1)}.
+The strictly positive parameter of the binomial distribution \eqn{\lambda \in (0,1)}.
 }
 \item{m}{
-The positive parameter of the bionomial distribution \eqn{m \geq 1}.
+The positive parameter of the binomial distribution \eqn{m \geq 1}.
 }
 \item{a}{
 The strictly positive scale parameter of the baseline Burr-12 distribution (\eqn{a > 0}).
@@ -84,9 +84,9 @@ Zimmer, W. J., Keats, J. B., & Wang, F. K. (1998). The Burr XII distribution in 
 }
 
 \author{
-Muhammad Imran and H.M Tahir.
+Muhammad Imran and M.H Tahir.
 
-R implementation and documentation: Muhammad Imran \email{imranshakoor84@yahoo.com} and H.M Tahir \email{mht@iub.edu.pk}.
+R implementation and documentation: Muhammad Imran \email{imranshakoor84@yahoo.com} and M.H Tahir \email{mht@iub.edu.pk}.
 }
 
 %\note{

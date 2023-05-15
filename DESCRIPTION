@@ -1,8 +1,8 @@
 Package: ComRiskModel
 Type: Package
 Title: Fitting of Complementary Risk Models
-Version: 0.1.0
-Date: 2023-05-7
+Version: 0.2.0
+Date: 2023-05-14
 Authors@R: c(
            person( "Muhammad", "Imran", role = c("aut", "cre"), email = "imranshakoor84@yahoo.com" ),
            person("M.H", "Tahir", role = "aut", email = "mht@iub.edu.pk"))
@@ -18,6 +18,6 @@ License: GPL (>= 2)
 Encoding: UTF-8
 RoxygenNote: 7.2.3
 NeedsCompilation: no
-Packaged: 2023-05-08 11:14:53 UTC; Amir computers
+Packaged: 2023-05-14 08:41:22 UTC; Amir computers
 Repository: CRAN
-Date/Publication: 2023-05-08 18:10:05 UTC
+Date/Publication: 2023-05-15 07:36:04 UTC

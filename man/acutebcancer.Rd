@@ -33,9 +33,9 @@ Mansour, M., Yousof, H. M., Shehata, W. A., & Ibrahim, M. (2020). A new two para
 acute bone cancer data. Journal of Nonlinear Science and Applications, 13(5), 223-238.
 }
 \author{
-Muhammad Imran and H.M Tahir.
+Muhammad Imran and M.H Tahir.
 
-R implementation and documentation: Muhammad Imran \email{imranshakoor84@yahoo.com} and H.M Tahir \email{mht@iub.edu.pk}.
+R implementation and documentation: Muhammad Imran \email{imranshakoor84@yahoo.com} and M.H Tahir \email{mht@iub.edu.pk}.
 }
 
 %\note{

@@ -76,10 +76,11 @@ Bakouch, H. S., Ristic, M. M., Asgharzadeh, A., Esmaily, L., & Al-Zahrani, B. M.
 Nadarajah, S. (2011). The exponentiated exponential distribution: a survey. AStA Advances in Statistical Analysis, 95, 219-251.
 }
 
-\author{
-Muhammad Imran and H.M Tahir.
 
-R implementation and documentation: Muhammad Imran \email{imranshakoor84@yahoo.com} and H.M Tahir \email{mht@iub.edu.pk}.
+\author{
+Muhammad Imran and M.H Tahir.
+
+R implementation and documentation: Muhammad Imran \email{imranshakoor84@yahoo.com} and M.H Tahir \email{mht@iub.edu.pk}.
 }
 
 

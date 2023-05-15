@@ -7,7 +7,7 @@ qCEWGeo<-function(p, alpha, beta, theta, lambda, log.p = FALSE, lower.tail = TRU
 	qf <- rep(NaN, length(p))
 	t=(p[p >= 0 & p <= 1]/(p[p >= 0 & p <= 1]*lambda+1-lambda))
 
-	qf[p >= 0 & p <= 1] <- (-1/alpha*log(1-(t)^(1/theta)))^(beta)
+	qf[p >= 0 & p <= 1] <- (-1/alpha*log(1-(t)^(1/theta)))^(1/beta)
     return(qf)
 	}
 

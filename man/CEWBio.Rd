@@ -81,9 +81,9 @@ Nadarajah, S., Cordeiro, G. M., & Ortega, E. M. (2013). The exponentiated Weibul
 }
 
 \author{
-Muhammad Imran and H.M Tahir.
+Muhammad Imran and M.H Tahir.
 
-R implementation and documentation: Muhammad Imran \email{imranshakoor84@yahoo.com} and H.M Tahir \email{mht@iub.edu.pk}.
+R implementation and documentation: Muhammad Imran \email{imranshakoor84@yahoo.com} and M.H Tahir \email{mht@iub.edu.pk}.
 }
 
 
@@ -97,11 +97,10 @@ R implementation and documentation: Muhammad Imran \email{imranshakoor84@yahoo.c
 }
 
 \examples{
-x<-rCEWBio(500,0.7,0.2,0.2,0.21,0.18)
-dCEWBio(x,2,1,1.2,2,0.2)
+x<-data_guineapigs
+dCEWBio(x,1,1,0.2,2,0.2)
 pCEWBio(x,2,1,1.2,2,0.2)
 qCEWBio(0.7,2,1,1.2,2,0.2)
-mCEWBio(x,0.801,0.2,0.8,2.3,0.202, method="B")
-
+mCEWBio(x,2.55,0.62,5.72,8.30,0.42, method="B")
 }
 

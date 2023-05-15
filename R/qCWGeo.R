@@ -7,7 +7,7 @@ qCWGeo<-function(p,alpha, beta, lambda,log.p = FALSE, lower.tail = TRUE){
 	qf <- rep(NaN, length(p))
 	t=(p[p >= 0 & p <= 1]/(p[p >= 0 & p <= 1]*lambda+1-lambda))
 
-	qf[p >= 0 & p <= 1] <- (-1/alpha*log(1-t))^(beta)
+	qf[p >= 0 & p <= 1] <- (-1/alpha*log(1-t))^(1/beta)
     return(qf)
 	}
 

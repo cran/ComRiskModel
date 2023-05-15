@@ -7,7 +7,7 @@ qCEWBio<-function(p, alpha, beta, theta, m, lambda, log.p = FALSE, lower.tail = 
 	qf <- rep(NaN, length(p))
 	t=(1-(1/lambda*(1-((p[p >= 0 & p <= 1]*(1-(1-lambda)^(m))+(1-lambda)^(m))^(1/m)))))
 
-	qf[p >= 0 & p <= 1] <- (-1/alpha*log(1-(t)^(1/theta)))^(beta)
+	qf[p >= 0 & p <= 1] <- (-1/alpha*log(1-(t)^(1/theta)))^(1/beta)
     return(qf)
 	}
 

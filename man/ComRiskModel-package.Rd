@@ -13,8 +13,8 @@ Evaluates the PDF, CDF, QF, random numbers and MLEs of eight well-known probabil
 \tabular{ll}{
 Package: \tab ComRiskModel\cr
 Type: \tab Package\cr
-Version: \tab 0.1 \cr
-Date: \tab 2023-05-7\cr
+Version: \tab 0.2.0 \cr
+Date: \tab 2023-05-14\cr
 License: \tab GPL-2\cr
 }
 }
